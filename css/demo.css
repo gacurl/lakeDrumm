@@ -4,6 +4,14 @@
 /*
 * CUSTOM ANIMATIONS
 */
+:root {
+	--primary: #F9F9F9;
+	--secondary: #305973; /* font*/
+	--tertiary: #1A3263; /* bg-color */
+	--quaternary: #101019;
+    --hover-link: #D4AF37;
+    --a-focus: #0B0B45;
+}
 @keyframes customFadeInLeft {
 		0% {
 				opacity: 0;
@@ -129,7 +137,7 @@ p {
 }
 
 .custom-text-color-1 {
-		color: #544b40 !important;
+		color: var(--secondary) !important;
 }
 
 .custom-text-color-2 {

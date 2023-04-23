@@ -2666,7 +2666,7 @@ html section.section-primary-scale-2 .sort-source.sort-source-style-2 > li.activ
 }
 
 html section.section-secondary {
-	background-color: #312227 !important;
+	background-color: var(--tertiary) !important;
 	border-color: #22181b !important;
 }
 
