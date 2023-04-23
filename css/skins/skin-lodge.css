@@ -464,7 +464,7 @@ html .bg-color-hover-before-primary:before:hover {
 
 html .bg-color-secondary,
 html .bg-secondary {
-	background-color: #312227 !important;
+	background-color: var(--secondary) !important;
 }
 
 html .bg-color-hover-secondary:hover,
