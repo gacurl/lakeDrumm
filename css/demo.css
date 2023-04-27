@@ -9,9 +9,10 @@
 	--secondary: #305973; /* font*/
 	--tertiary: #1A3263; /* bg-color */
 	--quaternary: #101019;
-    --hover-link: #D4AF37;
-    --a-focus: #0B0B45;
+  --hover-link: #D4AF37;
+  --a-focus: #0B0B45;
 }
+
 @keyframes customFadeInLeft {
 		0% {
 				opacity: 0;
@@ -289,7 +290,7 @@ p {
 }
 
 .custom-small-square.left-pos-2 {
-		left: 250px;
+		left: 250px;;
 }
 
 .custom-small-square.right-pos {
@@ -314,6 +315,7 @@ p {
 
 .custom-big-square.left-pos-2 {
 		left: 35px;
+		z-index: 3;
 }
 
 .custom-big-square.right-pos {
