@@ -6,14 +6,13 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>About Us | Lake Drummond Lodge No. 178</title>
+		<title>Gallery | Lake Drummond Lodge No. 178</title>	
 
 		<meta name="keywords" content="Freemason, Freemasonry, Virginia Freemason, Lake Drummond No. 178" />
 		<meta name="description" content="Lake Drummond Lodge No. 178 of Ancient, Free, and Accepted Masons">
     <link rel="alternate" hreflang="en-US" href="https://www.lakedrummond178.org/">
 
 		<!-- Favicon -->
-    <!-- need an icon here from Kyle -->
 		<!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 		<link rel="apple-touch-icon" href="img/apple-touch-icon.png"> -->
 
@@ -27,9 +26,6 @@
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
 		<link rel="stylesheet" href="vendor/animate/animate.compat.css">
-		<!-- above is added -->
-		<!-- as of 04/12/2023 don't need simple-line-icons (line 33), owl.carousel (lines 34 & 35), nor magnific (line 35).
-		in the event you need the links are below -->
 		<!-- <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
 		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
 		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
@@ -38,10 +34,8 @@
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="css/theme.css">
 		<link rel="stylesheet" href="css/theme-elements.css">
-		<!-- as of 04/16/2023 don't need theme-blog.css (line 43) nor theme-shop.css (line 44).
-		in the event you need the links are below -->
-		<!-- <link rel="stylesheet" href="css/theme-blog.css">
-		<link rel="stylesheet" href="css/theme-shop.css"> -->
+		<!-- <link rel="stylesheet" href="css/theme-blog.css"> -->
+		<!-- <link rel="stylesheet" href="css/theme-shop.css"> -->
 
 		<!-- Demo CSS -->
 		<link rel="stylesheet" href="css/demo.css">
@@ -49,10 +43,13 @@
 		<!-- Skin CSS -->
 		<link id="skinCSS" rel="stylesheet" href="css/skins/skin-lodge.css">
 
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="css/custom.css">
+
 		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.min.js"></script>
-	</head>
 
+	</head>
 	<body>
 
 		<div class="body">
@@ -72,6 +69,13 @@
 											<!-- <li class="mb-0 ms-4-5 d-none d-sm-block"><a href="payments.html" class="alternative-font-4 text-decoration-none text-3-5 font-weight-bold">PAYMENT CENTER</a></li> -->
 										</ul>
 									</nav>
+									<div class="header-nav-features d-none d-md-block ms-5-5">
+										<ul class="header-social-icons social-icons social-icons-clean social-icons-icon-dark social-icons-medium me-2 mb-0 d-none d-sm-block ms-1">
+											<li class="social-icons-facebook">
+												<a href="https://www.facebook.com/lakedrummond178" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+											</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -99,56 +103,61 @@
 														</a>
 													</li>
 													<li class="dropdown dropdown-full-color dropdown-primary">
-														<a class="dropdown-item dropdown-toggle active" href="being-a-mason.html">
+														<a class="dropdown-item dropdown-toggle" href="being-a-mason.html">
 															About Us
 														</a>
 														<ul class="dropdown-menu">
 															<li>
-																<a class="dropdown-item" href="being-a-mason.html">Being A Mason</a>
+																<a class="dropdown-item" href="demo-church-about-us.html">Being A Mason</a>
 															</li>
 															<!-- <li>
 																<a class="dropdown-item" href="demo-church-about-us-staff.html">Masonic Life</a>
 															</li> -->
+															<!-- grab the below from the Grand Lodge Page -->
 															<!-- <li>
 																<a class="dropdown-item" href="demo-church-about-us-locations.html">Family of Freemasonry</a>
 															</li> -->
 														</ul>
 													</li>
-                                                    <!-- adding code for News & Events -->
 													<li class="dropdown dropdown-full-color dropdown-primary">
-													    <a class="dropdown-item dropdown-toggle" href="demo-church-events.html">
-													        News & Events
-													    </a>
-													    <ul class="dropdown-menu">
-													        <li>
-													            <a class="dropdown-item" href="being-a-mason.html">News</a>
-													        </li>
-													        <li>
-													            <a class="dropdown-item" href="lodge-and-district-events.html">Calendar</a>
-													        </li>
-													    </ul>
-													</li>
+                            <a class="dropdown-item dropdown-toggle"
+                                href="being-a-mason.html">
+                                News & Events
+                            </a>
+                              <ul class="dropdown-menu">
+                              	<li>
+                                	<a class="dropdown-item"
+                                      href="being-a-mason.html">News
+																	</a>
+                                </li>
+                                <li>
+                                  <a class="dropdown-item"
+                                      href="lodge-and-district-events.html">Calendar
+																	</a>
+                                </li>
+                                </ul>
+                            </li>
                                                     <!-- end of code for News & Events dropdown menu -->
                                                     <!-- adding code for lodge leadership and service awards -->
-													<!-- <li class="dropdown dropdown-full-color dropdown-primary">
-													    <a class="dropdown-item dropdown-toggle" href="being-a-mason.html">
-													        Lodge
-													    </a>
-													    <ul class="dropdown-menu">
-													        <li>
-													            <a class="dropdown-item" href="being-a-mason.html">Leadership</a>
-													        </li>
-													        <li>
-													            <a class="dropdown-item" href="demo-church-about-us-staff.html">Past Masters</a>
-													        </li>
-													        <li>
-													            <a class="dropdown-item" href="demo-church-about-us-locations.html">Service Awards</a>
-													        </li>
-													    </ul>
+                                                    <!-- <li class="dropdown dropdown-full-color dropdown-primary">
+														<a class="dropdown-item dropdown-toggle" href="being-a-mason.html">
+															Lodge
+														</a>
+														<ul class="dropdown-menu">
+															<li>
+																<a class="dropdown-item" href="being-a-mason.html">Leadership</a>
+															</li>
+															<li>
+																<a class="dropdown-item" href="demo-church-about-us-staff.html">Past Masters</a>
+															</li>
+															<li>
+																<a class="dropdown-item" href="demo-church-about-us-locations.html">Service Awards</a>
+															</li>
+														</ul>
 													</li> -->
                                                     <!-- end of code for lodge leadership and service awards -->
 													<li>
-														<a class="nav-link" href="demo-church-gallery.html">
+														<a class="nav-link" href="gallery.html">
 															Gallery
 														</a>
 													</li>
@@ -173,12 +182,11 @@
 
 			<div role="main" class="main">
 
-				<section class="page-header page-header-modern page-header-background page-header-background-sm parallax overlay overlay-color-dark overlay-show overlay-op-1 my-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/support/handshake.jpg">
+				<section class="page-header page-header-modern bg-color-secondary page-header-lg mb-0">
 					<div class="container">
-						<div class="row my-5">
+						<div class="row my-4">
 							<div class="col-md-12 align-self-center text-center">
-								<h1 class="text-9 text-color-light custom-secondary-font font-weight-bold mb-4">What is Freemasonry?</h1>
-								<!-- <p class="text-color-light custom-secondary-font text-uppercase mb-0">About Us</p> -->
+								<h1 class="text-9 text-color-light custom-secondary-font font-weight-bold my-4">Gallery</h1>
 							</div>
 						</div>
 					</div>
@@ -187,141 +195,196 @@
 				<section class="section section-no-border bg-color-light m-0">
 					<div class="container">
 						<div class="row">
-							<div class="col-lg-7 col-sm-7">
-								<h2 class="font-weight-bold text-9-5">Freemasonry is universal in the belief of a higher being.</h2>
-								<p>There is no secret about who we are and what we do. We are good men trying to improve our lives through Faith, Hope, and Charity. We help our communities, fellow man, serve our country, and protect our family. A simple one line answer doesn't exist to describe Freemasonry. Freemasonry is an ancient organization that seeks to make good men better through a system of morality and ethics applied by the use of symbolic images of ancient operative masonry. Freemasonry is NOT a religion. Religious beliefs are NOT discussed in Lodge, but through the use of symbols and allegories, Freemasonry teaches equality of man and the value of Brotherly Love, Relief and Truth.</p>
-								<p>Freemasonry teaches and practices charity towards all who are less fortunate, while Freemasonry is NOT a religion. It is religious in the sense that Masons revere God, the Great Creator, and urge every man to attend a place of worship of his choice.</p>
-							</div>
+							<div class="col">
+								<div id="galleryAjaxBox" class="ajax-box ajax-box-init mb-4">
 
-							<div class="col-lg-5 col-sm-5 d-none d-sm-block">
-								<div class="custom-box-squares">
-									<img class="custom-cloud left-pos-2" alt src="img/support/left-cloud.png" />
-									<div class="custom-big-square left-pos-2 custom-box-shadow" style="background: url('img/support/checkered_with_ashlar.png'); background-size: cover;"></div>
-									<div class="custom-small-square left-pos-2 custom-box-shadow" style="background: url('img/support/background.jpg'); background-size: cover;"></div>
+									<div class="bounce-loader">
+										<div class="bounce1"></div>
+										<div class="bounce2"></div>
+										<div class="bounce3"></div>
+									</div>
+
+									<div class="ajax-box-content" id="galleryAjaxBoxContent"></div>
+
 								</div>
 							</div>
 						</div>
-					</div>
-				</section>
-
-				<section class="section section-secondary section-no-border m-0">
-					<div class="container">
-						<div class="row text-center justify-content-center">
-							<div class="col-sm-8 col-lg-4 mb-4 mb-lg-0">
-								<img src="img/support/boaz.png" alt class="img-repsonsive" />
-								<h2 class="font-weight-bold text-color-light">Our Values</h2>
-								<p class="custom-text-color-2 mb-0">Integrity,</br> Friendship,</br>Respect,</br> and Charity</p>
-							</div>
-							<div class="col-sm-8 col-lg-4 mb-4 mb-lg-0">
-								<img src="img/support/hive.png" alt class="img-repsonsive" />
-								<h2 class="font-weight-bold text-color-light">Join with Us</h2>
-								<p class="custom-text-color-2 mb-0"><strong class="text-color-light">Second Thursday of each month at 7.00 pm</strong></br> at Lake Drummond Masonic Lodge</br> 509 N George Washington Highway</br>Chesapeake, VA 23323</p>
-							</div>
-							<div class="col-sm-8 col-lg-4">
-								<img src="img/support/jachin.png" alt class="img-repsonsive" />
-								<h2 class="font-weight-bold text-color-light">Our Mission</h2>
-								<p class="custom-text-color-2 mb-0">Building each other</br> to Make Good Men</br> Better.</p>
-							</div>
-						</div>
-					</div>
-				</section>
-<!-- **** ALERT***** you are here - moving from LakeDrumm index to being-a-mason for match -->
-				<section class="section bg-color-tertiary section-no-border m-0">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-3 col-sm-4">
-								<span class="thumb-info custom-thumb-info-3 thumb-info-no-zoom">
-									<span class="thumb-info-wrapper">
-										<img src="img/brethren/masters/conroy.png" alt class="img-fluid" />
-									</span>
-									<span class="thumb-info-caption">
+						<div class="row" data-plugin-masonry data-plugin-options="{'itemSelector': '.col-lg-4'}">
+							<div class="col-lg-4">
+								<span class="thumb-info custom-thumb-info-4">
+									<a data-href="ajax/demo-church-gallery-ajax-on-page-1.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+										<span class="thumb-info-wrapper">
+											<img src="img/demos/church/gallery/gallery-1.jpg" alt class="img-fluid" />
+										</span>
+									</a>
+									<span class="thumb-info-caption custom-box-shadow">
 										<span class="thumb-info-caption-text">
-											<h4 class="font-weight-bold custom-primary-font mb-0 mt-3">
-												Worshipful John W. Conroy Jr.
-											</h4>
-											<p class="mb-0">Worshipful Master</p>
+											<h2 class="font-weight-bold text-5 text-center">
+												<a data-href="ajax/demo-church-gallery-ajax-on-page-1.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+													Baptism
+												</a>
+											</h2>
 										</span>
 									</span>
 								</span>
-								<!-- <a href="demo-church-about-us-staff.html" class="btn btn-primary custom-btn-style-1 text-uppercase mb-4 mb-lg-0 mt-4" title="Meet Our Staff">Meet our Staff</a> -->
 							</div>
-							<div class="col-lg-9 col-sm-8">
-								<h2 class="font-weight-bold">How Do I Become a Mason?</h2>
-								<p>To Be One You Must Ask One! To become a Mason a man must: apply of his own free will and accord and with an open heart. Neither invitations nor solicitations are made to prospective members. If a man is interested in joining he should ask a Masonic friend, who will guide him in the right direction.</p>
-								
-								<p>The requirements for membership are that you be a man of good character and reputation; that you be a peaceful citizen, and one who guards against intemperance and excess; and that you are one who respects genuine brotherhood and the general good of society. Freemasonry requires a belief in a supreme being.</p>
-
-								<p>Each applicant for membership must be vouched for by two members of the Fraternity who are in good standing and know the applicant and can vouch for his character and his reputation. In addition the applicant must be elected by a unanimous ballot. For more on become coming a Mason visit the Grand Lodge of Virginia.</p>
+							<div class="col-lg-4">
+								<span class="thumb-info custom-thumb-info-4">
+									<a data-href="ajax/demo-church-gallery-ajax-on-page-2.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+										<span class="thumb-info-wrapper">
+											<img src="img/demos/church/gallery/gallery-2.jpg" alt class="img-fluid" />
+										</span>
+									</a>
+									<span class="thumb-info-caption custom-box-shadow">
+										<span class="thumb-info-caption-text">
+											<h2 class="font-weight-bold text-5 text-center">
+												<a data-href="ajax/demo-church-gallery-ajax-on-page-2.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+													Wedding
+												</a>
+											</h2>
+										</span>
+									</span>
+								</span>
+							</div>
+							<div class="col-lg-4">
+								<span class="thumb-info custom-thumb-info-4">
+									<a data-href="ajax/demo-church-gallery-ajax-on-page-3.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+										<span class="thumb-info-wrapper">
+											<img src="img/demos/church/gallery/gallery-3.jpg" alt class="img-fluid" />
+										</span>
+									</a>
+									<span class="thumb-info-caption custom-box-shadow">
+										<span class="thumb-info-caption-text">
+											<h2 class="font-weight-bold text-5 text-center">
+												<a data-href="ajax/demo-church-gallery-ajax-on-page-3.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+													Church Community
+												</a>
+											</h2>
+										</span>
+									</span>
+								</span>
+							</div>
+							<div class="col-lg-4">
+								<span class="thumb-info custom-thumb-info-4">
+									<a data-href="ajax/demo-church-gallery-ajax-on-page-2.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+										<span class="thumb-info-wrapper">
+											<img src="img/demos/church/gallery/gallery-4.jpg" alt class="img-fluid" />
+										</span>
+									</a>
+									<span class="thumb-info-caption custom-box-shadow">
+										<span class="thumb-info-caption-text">
+											<h2 class="font-weight-bold text-5 text-center">
+												<a data-href="ajax/demo-church-gallery-ajax-on-page-2.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+													Wedding
+												</a>
+											</h2>
+										</span>
+									</span>
+								</span>
+							</div>
+							<div class="col-lg-4">
+								<span class="thumb-info custom-thumb-info-4">
+									<a data-href="ajax/demo-church-gallery-ajax-on-page-3.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+										<span class="thumb-info-wrapper">
+											<img src="img/demos/church/gallery/gallery-5.jpg" alt class="img-fluid" />
+										</span>
+									</a>
+									<span class="thumb-info-caption custom-box-shadow">
+										<span class="thumb-info-caption-text">
+											<h2 class="font-weight-bold text-5 text-center">
+												<a data-href="ajax/demo-church-gallery-ajax-on-page-3.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+													Church Community
+												</a>
+											</h2>
+										</span>
+									</span>
+								</span>
+							</div>
+							<div class="col-lg-4">
+								<span class="thumb-info custom-thumb-info-4">
+									<a data-href="ajax/demo-church-gallery-ajax-on-page-1.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+										<span class="thumb-info-wrapper">
+											<img src="img/demos/church/gallery/gallery-6.jpg" alt class="img-fluid" />
+										</span>
+									</a>
+									<span class="thumb-info-caption custom-box-shadow">
+										<span class="thumb-info-caption-text">
+											<h2 class="font-weight-bold text-5 text-center">
+												<a data-href="ajax/demo-church-gallery-ajax-on-page-1.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+													Baptism
+												</a>
+											</h2>
+										</span>
+									</span>
+								</span>
+							</div>
+							<div class="col-lg-4">
+								<span class="thumb-info custom-thumb-info-4">
+									<a data-href="ajax/demo-church-gallery-ajax-on-page-1.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+										<span class="thumb-info-wrapper">
+											<img src="img/demos/church/gallery/gallery-7.jpg" alt class="img-fluid" />
+										</span>
+									</a>
+									<span class="thumb-info-caption custom-box-shadow">
+										<span class="thumb-info-caption-text">
+											<h2 class="font-weight-bold text-5 text-center">
+												<a data-href="ajax/demo-church-gallery-ajax-on-page-1.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+													Baptism
+												</a>
+											</h2>
+										</span>
+									</span>
+								</span>
+							</div>
+							<div class="col-lg-4">
+								<span class="thumb-info custom-thumb-info-4">
+									<a data-href="ajax/demo-church-gallery-ajax-on-page-2.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+										<span class="thumb-info-wrapper">
+											<img src="img/demos/church/gallery/gallery-8.jpg" alt class="img-fluid" />
+										</span>
+									</a>
+									<span class="thumb-info-caption custom-box-shadow">
+										<span class="thumb-info-caption-text">
+											<h2 class="font-weight-bold text-5 text-center">
+												<a data-href="ajax/demo-church-gallery-ajax-on-page-2.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+													Wedding
+												</a>
+											</h2>
+										</span>
+									</span>
+								</span>
+							</div>
+							<div class="col-lg-4">
+								<span class="thumb-info custom-thumb-info-4">
+									<a data-href="ajax/demo-church-gallery-ajax-on-page-3.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+										<span class="thumb-info-wrapper">
+											<img src="img/demos/church/gallery/gallery-9.jpg" alt class="img-fluid" />
+										</span>
+									</a>
+									<span class="thumb-info-caption custom-box-shadow">
+										<span class="thumb-info-caption-text">
+											<h2 class="font-weight-bold text-5 text-center">
+												<a data-href="ajax/demo-church-gallery-ajax-on-page-3.html" class="text-decoration-none custom-secondary-font text-color-dark" data-ajax-on-page>
+													Church Community
+												</a>
+											</h2>
+										</span>
+									</span>
+								</span>
 							</div>
 						</div>
 					</div>
 				</section>
 
-				<!-- <section id="talkus" class="section section-no-border bg-color-light m-0">
+				<!-- <section class="section section-tertiary section-no-border m-0">
 					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 mb-4 mb-md-0">
-								<h2 class="font-weight-bold">Talk to Us</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempor ligula nec.</p>
-								<div class="row">
-									<div class="col-lg-6 col-sm-12 position-relative">
-										<div class="custom-location">
-											<img src="img/demos/church/others/pin.png" alt class="img-fluid" />
-											<h4 class="font-weight-bold custom-primary-font mb-1">Los Angeles</h4>
-											<p>
-												Porto Blvd, Suite 100<br>
-												Los Angeles/CA<br>
-												<strong>Phone:</strong> <a class="custom-text-color-default" href="tel:+123456789">123-456-7890</a>
-											</p>
-										</div>
-									</div>
-									<div class="col-lg-6 col-sm-12 position-relative">
-										<div class="custom-location">
-											<img src="img/demos/church/others/pin.png" alt class="img-fluid" />
-											<h4 class="font-weight-bold custom-primary-font mb-1">New York</h4>
-											<p>
-												Porto Blvd, Suite 100<br>
-												New York/NY<br>
-												<strong>Phone:</strong> <a class="custom-text-color-default" href="tel:+123456789">123-456-7890</a>
-											</p>
-										</div>
-									</div>
-								</div>
-								<form id="contactFormMessage" class="contact-form custom-form-style-1 mt-4" action="php/contact-form.php" method="POST">
-									<h6 class="font-weight-bold custom-primary-font">Send a Message:</h6>
-									<div class="contact-form-success alert alert-success d-none mt-4" id="contactFormMessageSuccess">
-										<strong>Success!</strong> Your message has been sent to us.
-									</div>
-
-									<div class="contact-form-error alert alert-danger d-none mt-4" id="contactFormMessageError">
-										<strong>Error!</strong> There was an error sending your message.
-										<span class="mail-error-message text-1 mt-2 d-block" id="contactFormMessageErrorMessage"></span>
-									</div>
-
-									<input type="hidden" name="subject" value="Church - Subject" />
-									<div class="row mb-3">
-										<div class="form-group col-sm-6">
-											<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control custom-xs-mb" name="name" id="contactName" placeholder="Your Name" required>
-										</div>
-										<div class="form-group col-sm-6">
-											<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="contactEmail" placeholder="Your E-mail" required>
-										</div>
-									</div>
-									<div class="row mb-3">
-										<div class="form-group col">
-											<textarea maxlength="5000" data-msg-required="Please enter your message." rows="4" class="form-control" name="message" id="contactMessage" placeholder="Your Message" required></textarea>
-										</div>
-									</div>
-									<div class="row mb-3">
-										<div class="form-group col">
-											<input type="submit" value="Send Message" class="btn btn-primary custom-btn-style-1 text-uppercase float-end" data-loading-text="Loading...">
-										</div>
-									</div>
-								</form>
+						<div class="row align-items-center">
+							<div class="col-lg-10">
+								<span class="custom-secondary-font font-weight-bold custom-text-color-1 text-4">First time visitor</span>
+								<h2 class="font-weight-bold custom-text-color-1 m-0">Find out more about the Church. <span class="font-weight-normal custom-secondary-font custom-font-italic">You belong here</span></h2>
 							</div>
-							<div class="col-lg-6">
-								<img src="img/demos/church/about-us/about-us-gallery-1.jpg" alt class="img-fluid custom-border-1 custom-box-shadow" />
-								<a href="demo-church-gallery.html" class="btn btn-primary custom-btn-style-1 text-uppercase float-end mt-3">View Gallery</a>
+							<div class="col-lg-2 mt-4 mt-lg-0">
+								<a href="demo-church-about-us.html" class="btn btn-primary custom-btn-style-1 text-uppercase">Visitors Guide</a>
 							</div>
 						</div>
 					</div>
